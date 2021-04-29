@@ -18,17 +18,18 @@ Install XAMPP for an easy quickstart
 Modify the app/config/config.php file according to your needs. You can use example.config.php file inside the same folder as an example based on my local settings.
 
 //Database Configuration
-define('DB_HOST', '<databaseHost>');
-define('DB_USER', '<databaseUser>');
-define('DB_PASS', '<databasePassword>');
-define('DB_NAME', '<databaseName>');
+* define('DB_HOST', '<databaseHost>');
+* define('DB_USER', '<databaseUser>');
+* define('DB_PASS', '<databasePassword>');
+* define('DB_NAME', '<databaseName>');
 Modify it like this
 
 //Database Configuration
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'shareposts');
+* define('DB_HOST', 'localhost');
+* define('DB_USER', 'root');
+* define('DB_PASS', '');
+* define('DB_NAME', 'shareposts');
+
 # .htaccess file
 Modify che .htaccess file inside the public folder to match the name of your installation folder
 

@@ -23,13 +23,11 @@ Modify the app/config/config.php file according to your needs. You can use examp
 * define('DB_PASS', '<databasePassword>');
 * define('DB_NAME', '<databaseName>');
 
-Modify it like this
-
-//Database Configuration
+Modify it like this:
 * define('DB_HOST', 'localhost');
 * define('DB_USER', 'root');
-* define('DB_PASS', '');
-* define('DB_NAME', 'shareposts');
+* define('DB_PASS', '_YOUR_DB_PASS_');
+* define('DB_NAME', '_YOUR_DB_NAME_');
 
 # .htaccess file
 Modify che .htaccess file inside the public folder to match the name of your installation folder

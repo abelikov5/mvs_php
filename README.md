@@ -22,6 +22,7 @@ Modify the app/config/config.php file according to your needs. You can use examp
 * define('DB_USER', '<databaseUser>');
 * define('DB_PASS', '<databasePassword>');
 * define('DB_NAME', '<databaseName>');
+
 Modify it like this
 
 //Database Configuration
